@@ -1,11 +1,10 @@
 # Python3 client API for ConsurfDB 
 
-[![https img shields io pypi v consurfdb client api logo python](https://img.shields.io/pypi/v/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
-[![https img shields io pypi pyversions consurfdb client api logo python](https://img.shields.io/pypi/pyversions/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
-[![https img shields io pypi wheel consurfdb client api logo python](https://img.shields.io/pypi/wheel/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
-[![https img shields io pypi format consurfdb client api logo python](https://img.shields.io/pypi/format/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
-[![https img shields io pypi status consurfdb client api logo python](https://img.shields.io/pypi/status/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
-[![https img shields io pypi dm consurfdb client api logo python](https://img.shields.io/pypi/dm/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+[![https img shields io pypi v consurfdb client api logo python](https://img.shields.io/pypi/v/ConsurfDB-client-API?logo=python)](https://pypi.org/project/ConsurfDB-client-API)
+[![https img shields io pypi pyversions consurfdb client api logo python](https://img.shields.io/pypi/pyversions/ConsurfDB-client-API?logo=python)](https://pypi.org/project/ConsurfDB-client-API)
+[![https img shields io pypi wheel consurfdb client api logo python](https://img.shields.io/pypi/wheel/ConsurfDB-client-API?logo=python)](https://pypi.org/project/ConsurfDB-client-API)
+[![https img shields io pypi format consurfdb client api logo python](https://img.shields.io/pypi/format/ConsurfDB-client-API?logo=python)](https://pypi.org/project/ConsurfDB-client-API)
+[![https img shields io pypi status consurfdb client api logo python](https://img.shields.io/pypi/status/ConsurfDB-client-API?logo=python)](https://pypi.org/project/ConsurfDB-client-API)
 
 [![https img shields io codeclimate maintainability matteoferla ConsurfDB client API logo codeclimate](https://img.shields.io/codeclimate/maintainability/matteoferla/ConsurfDB-client-API?logo=codeclimate)](https://codeclimate.com/github/matteoferla/ConsurfDB-client-API)
 [![https img shields io codeclimate issues matteoferla ConsurfDB client API logo codeclimate](https://img.shields.io/codeclimate/issues/matteoferla/ConsurfDB-client-API?logo=codeclimate)](https://codeclimate.com/github/matteoferla/ConsurfDB-client-API)
@@ -17,7 +16,6 @@
 
 [![https img shields io github last commit matteoferla ConsurfDB client API logo github](https://img.shields.io/github/last-commit/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
 [![https img shields io github license matteoferla ConsurfDB client API logo github](https://img.shields.io/github/license/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API/raw/main/LICENCE)
-[![https img shields io github release date matteoferla ConsurfDB client API logo github](https://img.shields.io/github/release-date/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
 [![https img shields io github commit activity m matteoferla ConsurfDB client API logo github](https://img.shields.io/github/commit-activity/m/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
 [![https img shields io github issues matteoferla ConsurfDB client API logo github](https://img.shields.io/github/issues/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
 [![https img shields io github issues closed matteoferla ConsurfDB client API logo github](https://img.shields.io/github/issues-closed/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
@@ -25,6 +23,7 @@
 [Consurf-DB](https://consurfdb.tau.ac.il/) is a web server developed by the group of Prof. Nir Ben-Tal
 which provides PDB structures with the b-factors remapped to residue conservation scores as determined
 by their [rate4site](https://www.tau.ac.il/~itaymay/cp/rate4site.html).
+[![https img shields io badge doi 10 1002 2Fpro 3779 fcb426](https://img.shields.io/badge/doi-10.1002%2Fpro.3779-fcb426)](https://doi.org/10.1002%2Fpro.3779)
 
 This **unofficial** Python3 module queries this server and performs several operations.
 
@@ -139,3 +138,8 @@ Dump of attributes and methods:
 * `Consurf.remap_chains`
 * `Consurf.sequence`
 * `Consurf.to_pandas`
+
+## Author
+
+This package was written by Matteo Ferla
+[![https img shields io badge orcid 0000 0002 5508 4673 a6ce39 logo orcid](https://img.shields.io/badge/orcid-0000--0002--5508--4673-a6ce39?logo=orcid)](https://orcid.org/0000--0002--5508--4673) [![https img shields io badge google scholar gF bp_cAAAAJ success logo googlescholar](https://img.shields.io/badge/google--scholar-gF--bp_cAAAAJ-success?logo=googlescholar)](https://scholar.google.com/citations?user=gF--bp_cAAAAJ&hl=en) [![https img shields io twitter follow matteoferla label Follow logo twitter](https://img.shields.io/twitter/follow/matteoferla?label=Follow&logo=twitter)](https://twitter.com/matteoferla) [![https img shields io stackexchange stackoverflow r 4625475 logo stackoverflow](https://img.shields.io/stackexchange/stackoverflow/r/4625475?logo=stackoverflow)](https://stackoverflow.com/users/4625475) [![https img shields io stackexchange bioinformatics r 6322 logo stackexchange](https://img.shields.io/stackexchange/bioinformatics/r/6322?logo=stackexchange)](https://bioinformatics.stackexchange.com/users/6322) [![https img shields io badge email gmail informational logo googlemail](https://img.shields.io/badge/email-gmail-informational&logo=googlemail)](https://mailhide.io/e/Ey3RNO2G) [![https img shields io badge email Oxford informational logo googlemail](https://img.shields.io/badge/email-Oxford-informational&logo=googlemail)](https://mailhide.io/e/Y1dbgyyE) |
