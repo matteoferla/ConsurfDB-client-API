@@ -9,3 +9,16 @@ This was formerly a part of the Venus backend ([:octocat: michelanglo-protein](h
 but I (MF) moved it out as it may be useful for others.
 
 PS. Like all APIs, especially the unofficial ones, do not abuse the server...
+
+## Usage
+
+```python3
+from consurfDB import ConsurfDB
+cp = ConsurfDB.from_web('1UBQ', 'A')
+```
+The `grades` file data is in `cp.data` and can be made into a pandas dataframe:
+
+```python3
+import pandas as pd
+grades :pd.DataFrame = cp.to_pandas()
+```
