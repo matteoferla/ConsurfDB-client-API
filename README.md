@@ -1,4 +1,27 @@
 # Python3 client API for ConsurfDB 
+
+[![https img shields io pypi v consurfdb client api logo python](https://img.shields.io/pypi/v/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+[![https img shields io pypi pyversions consurfdb client api logo python](https://img.shields.io/pypi/pyversions/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+[![https img shields io pypi wheel consurfdb client api logo python](https://img.shields.io/pypi/wheel/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+[![https img shields io pypi format consurfdb client api logo python](https://img.shields.io/pypi/format/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+[![https img shields io pypi status consurfdb client api logo python](https://img.shields.io/pypi/status/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+[![https img shields io pypi dm consurfdb client api logo python](https://img.shields.io/pypi/dm/consurfdb--client--api?logo=python)](https://pypi.org/project/consurfdb--client--api)
+
+[![https img shields io codeclimate maintainability matteoferla ConsurfDB client API logo codeclimate](https://img.shields.io/codeclimate/maintainability/matteoferla/ConsurfDB-client-API?logo=codeclimate)](https://codeclimate.com/github/matteoferla/ConsurfDB-client-API)
+[![https img shields io codeclimate issues matteoferla ConsurfDB client API logo codeclimate](https://img.shields.io/codeclimate/issues/matteoferla/ConsurfDB-client-API?logo=codeclimate)](https://codeclimate.com/github/matteoferla/ConsurfDB-client-API)
+[![https img shields io codeclimate tech debt matteoferla ConsurfDB client API logo codeclimate](https://img.shields.io/codeclimate/tech-debt/matteoferla/ConsurfDB-client-API?logo=codeclimate)](https://codeclimate.com/github/matteoferla/ConsurfDB-client-API)
+
+[![https img shields io github forks matteoferla ConsurfDB client API label Fork style social logo github](https://img.shields.io/github/forks/matteoferla/ConsurfDB-client-API?label=Fork&style=social&logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+[![https img shields io github stars matteoferla ConsurfDB client API style social logo github](https://img.shields.io/github/stars/matteoferla/ConsurfDB-client-API?style=social&logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+[![https img shields io github watchers matteoferla ConsurfDB client API label Watch style social logo github](https://img.shields.io/github/watchers/matteoferla/ConsurfDB-client-API?label=Watch&style=social&logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+
+[![https img shields io github last commit matteoferla ConsurfDB client API logo github](https://img.shields.io/github/last-commit/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+[![https img shields io github license matteoferla ConsurfDB client API logo github](https://img.shields.io/github/license/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API/raw/main/LICENCE)
+[![https img shields io github release date matteoferla ConsurfDB client API logo github](https://img.shields.io/github/release-date/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+[![https img shields io github commit activity m matteoferla ConsurfDB client API logo github](https://img.shields.io/github/commit-activity/m/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+[![https img shields io github issues matteoferla ConsurfDB client API logo github](https://img.shields.io/github/issues/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+[![https img shields io github issues closed matteoferla ConsurfDB client API logo github](https://img.shields.io/github/issues-closed/matteoferla/ConsurfDB-client-API?logo=github)](https://github.com/matteoferla/ConsurfDB-client-API)
+
 [Consurf-DB](https://consurfdb.tau.ac.il/) is a web server developed by the group of Prof. Nir Ben-Tal
 which provides PDB structures with the b-factors remapped to residue conservation scores as determined
 by their [rate4site](https://www.tau.ac.il/~itaymay/cp/rate4site.html).
