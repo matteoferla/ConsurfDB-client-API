@@ -10,6 +10,10 @@ but I (MF) moved it out as it may be useful for others.
 
 PS. Like all APIs, especially the unofficial ones, do not abuse the server...
 
+## Installation
+
+    pip install ConsurfDB-client-API
+
 ## Usage
 
 Get and parse consurfDB data.
