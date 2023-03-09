@@ -88,7 +88,7 @@ class ConBase:
             return mapping[chain]
 
     def _fetch_final(self, final: str):
-        url = f'https://consurfdb.tau.ac.il/DB/{final}/consurf_summary.txt'
+        url = f'https://consurfdb.tau.ac.il/DB/{final}/{final}_consurf_summary.txt'
         reply = self.req_session.get(url, verify=self.REQUEST_VERIFY_SETTING)
         self.assert_reply(reply, msg=f'retrieval of suggestion {final}')
         return reply.text
